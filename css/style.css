@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.jpg) no-repeat center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.container-login {
+    width: 320px;
+    height: 420px;
+    background: linear-gradient(#6eb9ff, #000);
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+
+.container-login .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.container-login h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container-login label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.container-login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container-login input[type="email"],
+.container-login input[type="password"] {
+    border: none;
+    border-bottom: 1px solid White;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.container-login input[type="submit"],
+.container-login input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(13, 126, 128);
+    color: #fff;
+    font: 18px;
+    border-radius: 20px;
+}
+
+.container-login a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+
+.container-login a:hover {
+    color: #fff;
+}
+
+.container-login input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.container-login input[type="button"]:hover {
+    cursor: pointer;
+}
